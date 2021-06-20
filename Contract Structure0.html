@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>helloworld0.sol</title>
+
+<h1>Done in Solidity</h1>
+
+
+  </head>
+  <body>
+
+<script>
+
+All smartcontracts that we write in ethereum need to have a few basic structure to it.
+
+First we always need to write:
+
+pragma solidity 0.7.5;   = write "pragma solidity" and then the current version that you are using (0.7.5)
+And all solidity code needs to end with a semi colon.
+So complete exampel:
+
+pragma solidity 0.7.5;
+
+This tells the compiler wich version of code we are writing here, this is important beceouse as the language of Solidity changes between versions, there certain function, variables and keywords that changes.
+
+after that we will write contract
+
+
+contract HelloWorld {
+
+      (it is whithin these brackets we will write all of our contract code and all of the  )
+     here we write, function and variables
+  }
+
+
+
+Just like in JavarScript to be able to do console.log(HelloWorld) in solidity we have to make it in a function.
+there is no way to get it out within a console.log method.
+
+So do we compete the smart contract?
+
+Example below:
+
+
+
+
+pragma solidity 0.7.5;                                                          (the version of the solidity you are writing your code)
+
+contract HelloWorld {
+
+  function hello() public pure returns(string memory){
+      return "Hello World";
+  }
+}
+
+
+
+
+</script>
+
+
+
+  </body>
+</html>
